@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhes do Pokémon</title>
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/pokemon-details.css" />
+  </head>
+  <body>
+    <section class="detailPokemon">
+      <a class="return" href="index.html" target="_blank">RETURN</a>
+
+      <div class="header">
+        <h1 id="pokemonName"></h1>
+        <img id="pokemonImage" alt="Pokémon" class="pokemon-image" />
+        <h2 id="pokemonId"></h2>
+      </div>
+      <div class="aboutPokemon">
+        <h2>About</h2>
+        <ul>
+          <li><strong>Species:</strong> <span id="pokemonSpecies"></span></li>
+          <li><strong>Height:</strong> <span id="pokemonHeight"></span></li>
+          <li><strong>Weight:</strong> <span id="pokemonWeight"></span></li>
+          <li>
+            <strong>Abilities:</strong> <span id="pokemonAbilities"></span>
+          </li>
+        </ul>
+      </div>
+      <div class="stats">
+        <h2>Base Stats</h2>
+        <ul id="pokemonStats"></ul>
+      </div>
+
+      <div class="moves">
+        <h2>Moves</h2>
+        <ul id="pokemonMoves"></ul>
+      </div>
+    </section>
+
+    <button><a href="index.html" target="_blank">olá</a></button>
+
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
+    <script src="/assets/js/pokemon-details.js"></script>
+  </body>
+</html>
