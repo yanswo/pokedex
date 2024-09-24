@@ -191,3 +191,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
+
+.pokemon:hover {
+    transform: scale(1.05); 
+}
